@@ -1,0 +1,6 @@
+Routes:
+
+/api/posts -all posts unordered
+/api/{id} -get a specific post by id
+/api/posts/descending - all posts in descending order
+/api/posts/ascending  -all posts in ascending order

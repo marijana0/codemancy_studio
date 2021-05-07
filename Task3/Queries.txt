@@ -1,0 +1,14 @@
+
+Selecting all students taking a specific exam:
+
+select StudentId, FirstName, LastName
+from student inner join relationshiptable
+on student.StudentId=relationshiptable.Student
+where relationshiptable.Exam=2;
+
+All exams for a student with a specific id
+
+select exam.id, exam.name, exam.points
+from exam inner join relationshiptable
+on exam.id=relationshiptable.Exam
+where relationshiptable.Student=2
